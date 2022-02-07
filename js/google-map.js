@@ -100,7 +100,7 @@ function initialize() {
     draggable: true,              
 	  
     zoom: 6,
-    center: new google.maps.LatLng(51.31736, 9.4839113),
+    center: new google.maps.LatLng(53.31736, 42.4839113),
     mapTypeControlOptions: {
       mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
     }

@@ -38,6 +38,8 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> -->
+
 
     <!-- Menu shrinking -->
     <script type="text/javascript" src="js/menu.js"></script>    
@@ -47,6 +49,8 @@
 
     <!-- Custom CSS. Input here your changes -->
     <link href="css/custom.css" rel="stylesheet">
+
+    <link href="img/Screenshot_18.png" rel="shortcut icon">
 
 </head>
 
@@ -68,15 +72,11 @@
             <nav class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown active">
-                        <a href="index.html" class="dropdown-toggle">Home</a>
-                        <!-- <ul class="dropdown-menu">
-                            <li class="active"><a href="index.html">Index</a></li>    
-                            <li><a href="index-header-carousel.html">Classic Carousel</a></li>                            
-                        </ul> -->
+                        <a href="index.html" class="dropdown-toggle">Home</a>                       
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
+                        <a href="#intro">Intro</a>
+                        <!-- <ul class="dropdown-menu">
                             <li class="dropdown-header">Company</li>
                             <li><a href="about-us.html">About Us</a></li>
                             <li><a href="our-team.html">Our Team</a></li>
@@ -88,28 +88,17 @@
                             <li><a href="portfolio.html">Portfolio</a></li>
                             <li><a href="portfolio-item.html">Portfolio Item</a></li>
                             <li><a href="gallery.html">Gallery</a></li>
-                        </ul>
-                    </li>
-                    <!-- <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Page Layouts<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li class="dropdown-header">Page Layouts</li>
-                            <li><a href="full-width.html">Full Width</a></li>
-                            <li><a href="right-sidebar.html">Right Sidebar</a></li>
-                            <li><a href="left-sidebar.html">Left Sidebar</a></li>
-                            <li><a href="right-left-sidebar.html">Right &amp; Left Sidebar</a></li>
-                            <li><a href="404.html">404 Error</a></li>
-                        </ul>
-                    </li> -->
-                    <li><a href="components.html">Components</a></li>
-                    <li class="dropdown">
-                        <a href="blog-left-sidebar.html" class="dropdown-toggle">Blog</a>
-                        <!-- <ul class="dropdown-menu">                            
-                            <li><a href="blog-single-post.html">Blog Single Post</a></li>                        
-                            <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
                         </ul> -->
                     </li>
-                    <li><a href="contact.html">Contact</a></li>
+                    
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#portfolio">Portfolio</a>
+                       
+                    </li>
+                    <li><a href="#skills">Skills</a>
+                       
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <!-- /.navbar-collapse -->
@@ -147,7 +136,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="cta-button">
-                        <a href="Contact.html" class="btn btn-primary">Contact Me</a>
+                        <a href="#contact" class="btn btn-primary">Contact Me</a>
                     </div>
                 </div>
             </div>
@@ -183,7 +172,7 @@
                             <i class="fa fa-user"></i>
                             <label><strong>258</strong>
                                 <br/>Happy Clients</label>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore</p>
+                            <p>In the past years working for various companies, I have met many clients and successfully completed many projects from their requests. I worked with nearly 258 clients in my short development history.</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
@@ -194,7 +183,7 @@
                                 </strong>
                                 <br/>Line Of Coding
                             </label>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore</p>
+                            <p>During the development period of 6 years, I wrote a lot of scalable, secure, and flexible code every day.</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
@@ -202,7 +191,7 @@
                             <i class="fa fa-trophy"></i>
                             <label><strong>21</strong>
                                 <br/>Awards</label>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore</p>
+                            <p>It was also the honor of receiving an award during this period. From Html to the Blockchain at certain point, various awards and certifications have been awarded.</p>
                         </div>
                     </div>
                 </div>
@@ -215,7 +204,7 @@
 
 
     <!-- Call to Action Primary -->
-    <section class="cta cta-primary">
+    <!-- <section class="cta cta-primary">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -227,32 +216,34 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
 
 
 
     <!-- About -->
-    <section class="page-section">
+    <section class="page-section" id="experience">
         <div class="container ">
             <div class="row">
                 <div class="col-md-8 col-md-push-4">
                     <div class="col-md-12">
-                        <h2 class="title-section"><span class="title-regular">WE ARE</span><br/>LAUTENSCHLAGER</h2>
+                        <h2 class="title-section">My Work Experience</h2>
                         <hr class="title-underline" />
                     </div>
                     <div class="row">
                         <div class="col-md-6 ">
                             <div class="col-xs-2 box-icon">
-                                <div class="fa fa-html5 "></div>
+                                <div class="fa fa-bitcoin"></div>
                             </div>
                             <div class="col-xs-10">
-                                <h3>HTML5 TEMPLATES</h3>
+                                <h3>Blockchain Developer</h3>
                             </div>
                             <div class="col-md-10 col-xs-offset-2">
                                 <p>
-                                    Maecenas luctus nisi in sem fermentum blat. In nec elit solliudin, elementum, dictum pur quam volutpat suscipit antena.
+                                    I worked as a Blockchain developer in this company for 2 years with my
+                                    designer.<br>
+                                    - Development smart contracts, Ethereum-based programs with...
                                 </p>
                             </div>
                         </div>
@@ -262,11 +253,13 @@
                                 <div class="fa fa-wordpress "></div>
                             </div>
                             <div class="col-xs-10">
-                                <h3>WORDPRESS TEMPLATES</h3>
+                                <h3>Frontend Developer</h3>
                             </div>
                             <div class="col-md-10 col-xs-offset-2">
                                 <p>
-                                    Maecenas luctus nisi in sem fermentum blat. In nec elit solliudin, elementum, dictum pur quam volutpat suscipit antena.
+                                    Designing web and mobile apps mockups using Adobe XD. Designed and
+                                    built the company website using React. Bringing mock-ups to life using
+                                    HTML, CSS, Bootstrap...
                                 </p>
                             </div>
                         </div>
@@ -275,35 +268,39 @@
                         <div class="col-md-6 ">
 
                             <div class="col-xs-2 box-icon">
-                                <div class="fa fa-camera "></div>
+                                <div class="fa fa-info"></div>
                             </div>
                             <div class="col-xs-10">
-                                <h3>STOCK PHOTOS</h3>
+                                <h3>Software Engineer</h3>
                             </div>
                             <div class="col-md-10 col-xs-offset-2">
                                 <p>
-                                    Maecenas luctus nisi in sem fermentum blat. In nec elit solliudin, elementum, dictum pur quam volutpat suscipit antena.
+                                    Worked here as software engineer,worked in core team of building recommedation engine with low latency. Worked on building backend services. 
+                                    Worked on cold start problem...
                                 </p>
                             </div>
                         </div>
                         <div class="col-md-6 ">
 
                             <div class="col-xs-2 box-icon">
-                                <div class="fa fa-joomla "></div>
+                                <div class="fa fa-code "></div>
                             </div>
                             <div class="col-xs-10">
-                                <h3>JOOMLA TEMPLATES</h3>
+                                <h3>PHP Web Developer</h3>
                             </div>
                             <div class="col-md-10 col-xs-offset-2">
                                 <p>
-                                    Maecenas luctus nisi in sem fermentum blat. In nec elit solliudin, elementum, dictum pur quam volutpat suscipit antena.
+                                    - Analyzes the system that will was built<br>
+                                    - Make structures database system<br>
+                                    - Make coding application<br>
+                                    - Debugging
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-md-pull-8 ">
-                    <img class="img-responsive" src="http://placehold.it/365x376" alt="" />
+                    <img class="img-responsive" src="img/images2.jpg" alt="" />
                 </div>
             </div>
         </div>
@@ -318,94 +315,102 @@
         <div class="container ">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="title-section"><span class="title-regular">SPECIAL</span><br/>FEATURES</h2>
+                    <h2 class="title-section"><span class="title-regular">My Blockchain</span><br/>Networks</h2>
                     <hr class="title-underline " />
                     <div class="row">
                         <div class="col-sm-3">
                             <div class="feature-box">
-                                <div class="feature-box-icon">
-                                    <i class="fa fa-code"></i>
+                                <div class="feature-box-icon" style="background: none">
+                                    <!-- <i class="fab fa-ethereum"></i> -->
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAclBMVEX////f39+MjIze3t7d3d00NDQ5OTng4OAUFBTy8vL8/Pzh4eE8PDvi4uL9/f3c3Nzq6uoAAABCQkKEhIQhISEvLy8oKCiTk5PW1ta7u7u1tbWsrKzHx8eenp7Q0NAcHBx5eXlPT09xcXFhYWFYWFhpaWnbIXkZAAAJD0lEQVRogbVaa3eDKBAFQQ0QhNYY82ySPv7/X1wYUBFB292zfqinGfAKd5inqMYaoUbWhCHEaU05QozUEiGksRUhJ0K0Jl7UjCIBkzmGEQzXglsRTJYwgpsRdvL/BVKHIITa4TVR5p9GEWWfpIiwIBREAkQoJaphckNhBKMENyACEBjRYELtZMaY1pqNt9k/i5v5w1lWlJtlYQiu7ToJgVcgxL5CjWELKCb27QiG9weRuAn7dlxhhWDEJDJMDKImEOEQBDvG7HDuQQjGAQgw8dlLz59yk0XAH8ziqoatHUWIc1gW5+av5nBj42/BzYk0Oh/bG/wmteRwG0RwkymRJ16MxDcBu2RJ/Om9anvuRSPxNCTe73pI/N9UmLeHfdGe2ZoK4+Cc1E6FgYLGbybFDgTGGSamfW6c6HQo90VRnIQDcfzhgT+RoRa5vbOcSAlbCDc27W4oYl8dgNzRtPHBLHszw3kk0hntapLaJa+HEkDa01+0q06cE7o8JxQGalGWDqQomj+dExZcmi2v4DfeHgeQ9sITY3OXI97oKQUVxrBOp4X+7QS8HVKYyLdpJa2aVJhgp8K4XqowzqswTqmwfnUTSNGDCpOZCs+oDVVYCvuPFLUFqaUdx2oBIEIAiBfp66MMQAz3TtRwIWCWEJLDLAAR/rnCjLDcYTw7RfB2AmOvXdxrFz+WIUhR1FYnolXj5IagaZ2zo+q8jTn7eHBE/SECuQqUtg6B4WhGFaZ05m0UMEaBTEWoFSkq5a6MQNoPO1nR0MHRmQn0IoLsaU96G+5vzhDz7y4GKe56OdlZbD9rEA0qjGcqjBcqfB4WEoC0N0kCFSZOhVO2aw1ksIIMsX23BCkKhR0I2QDJuCoeuio2sh6BXNcc3PSb4w57dkPiIQJRFCi8PcokSKvNiHqLeBqq8DJg8irMRtYjkOLO8G9VmABIaHR4PbhUO/yyKzMglnvHH6xEEmeFydwEDmZFisCsCAmv4M2KVFWZAykKZlYthZ8FZkXCu4bPHQxk2h4AiG6PeZD28hsDuXlO5O1QrqyklSht6r0KD2HqxhWyvgQx3G87rSlgmrvfgXh9mS9kAdKeg1WTmfslyzAVp8JUcaq6dRDL/VYgAaGL5FFIZNTChUTseSw3QCz3UUgk59HSlnados1KraT9EGzp+/Dk+7bC1Ij1JEjRy40wdQi4aSLgpixmPQ1SnPl6wL2eOsSEZEAK79kyxnw9TG2XIN3hu12C3GUUQc6ToDUQ+raAeOx2Zfd6Lrmv18LUFW+DXhHrRwOx21VV1b1/xtyzpPtyt3SKDd6G3R9ziJ27Knt11U+0FGPgZ77vl5nWTLMOu10IUhnz/1X0AQqr88UC8LaoVi4xdN5WKbuSgPVughhBDEz3aieYq1TEvpqbLBV4ceKe6xScL0oJcgqCusdulwIBmOcA02p7OlTgGZXzjJQsw1S/TjmwftxFVxVeZWl0wOHcN3z88qhqz/oCIgKxOPsfgDFhqxhXMsvUUaZQohdUZEEMTPUF5ARVllmxJeN+dXHMQKRALMy3gbmipfslowq7WHTyNvJ8iNjeALHkvJ7G38eBhANJe5v3txxEDgR04Jn2fRnibysoOZDq+H1JeoycCiPZ73IwGYiuuiKdV+FEUY0Lffp8S8Ok9+rwZLGpN1bY5RIo9DZDUcTZY36ukijJnXopHvs+PaUOOKVdLpCQ+p5aTGKnjle3IegvmZbyARtr2iXMYqd2T8hAiNB0AiHzTCtx4tntRf1aT68YJcI4fJudgkOuihNL1lVBhfFChVH/9mTeg54jPZuTUV01rFrq8/Om89XUqFjgSnlfx9JEhibTahAvZnsWknHosXT8nYv2nrXCvLGlFN4YHRcScVsv0ajh+tSZw3XSJr8xKLevtwRI+fjUXAjZNOjUt8Y3QrGlaTgWmDf+uY3JpUb3a92keXEoyGP7CrfHvjyaYNqJbt1bDHJ4XaSEdEpdW8js5ML9yq2GQNvt993ePAgURI17NqjtnWtXijp795so0URhaqIhUFX7vdmzswQQ/fHjYIadgqIaQ+LeupiI/KuGwOmxN1fVPSlzZZMLmAA44B/cV16uLp5sTynf95uGwP1oUfZd2UNIo2XdP95MBFnduW8I3AqPcZH/uiHwKvcO5nVxUS3Tz7fD88PWuqkQqh/C4l7itVh4zIhSZWTplmKpeWpkRUbrzsxFn+o+Rt4t1sEstsi0XHA3FEVoWBQxgdllQNmXh8JFsHD2FNa3Kbhvz3y1RLOVaX12A4pR59t4iuVAhk8cNnpaqyvRiO+rEaV6/CgN2i3usxxFuVJifiVTUUT6oogMii1Cn8cNszC73tgfeZlB2Dq0hlnNMGss0bjngoFM5vG+ZKv7EGXfdedblP9ch60NSraDduV8/KzrYLwA/y5DlKqMsrk+rMPkGwK+5j+LL/2v9p9TF4Ls3+cYBU7MGm7+J0Q2GwL6fsyDmCi7Ib/raU2BRKohIH+6HIglZKh3RYYDT9RmwtT52Rfv2ZWEdZhsiQatniIjgkLn5ZgGadWs0DmcaTI2o/moXQkfHzUEZNulQNrLHxoCWcZsNRUiTfqqEiA9nypnkf6ERbVcphV7Ma4OS5D2tDHrVw2BQPHQePBHkNaEWcQ1rrZq9SEIXwGR31UEcvcd06AhkOuYrtaQpmKL0cnDHKRl27OChgBN2mjfCVJOZPz0bReCtDcBzczVTlAdZlrZcxL0tBB6lgHIVde+m/A7FVYUeq9K2eECiiImHHNpP51WgnRZjSC9FcFkVQ8ODiZ734fGEo2ZjPBmrd63ymvSgB6/O7vodUJPrXI8b5X7auqUx/+q6W9E1h6/F2OY9eum/0qYSoNT7D9f+CkBpBd/+3xhu5wfXrSqLIj42yw01btIynb5fjxxOSdh5+O7KwOP/fjQdq00BNYCiXrs/XqSnmV7Fyz8biXV+/1bQ2AQDSMQexXYOziR+0ZCRKJFNXVWRp9E4wdL8nxC8w+WUPTB0n/+bsWI9CTa/r5r3tMiMys8i1a8Cg8iVy8ZRGCFBxVO9LQICTMtVw0ZbizsQged6RUR87fIY203BFJfRTU+TKQ49d1KMgn6B84FIHGN1J3hAAAAAElFTkSuQmCC" data-deferred="1" alt="" class="BcUvif" width="35" height="35" data-atf="true" data-iml="5263.10000000149">
                                 </div>
                                 <div class="feature-box-info">
-                                    <h4>Clean Code</h4>
-                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <h4>Ethereum</h4>
+                                    <p>An Ethereum network is a private...</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-3">
                             <div class="feature-box">
-                                <div class="feature-box-icon">
-                                    <i class="fa fa-expand"></i>
+                                <div class="feature-box-icon" style="background: none">
+                                    <!-- <i class="fa fa-expand"></i> -->
+                                    <img src="data:image/jpeg;base64,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" data-deferred="1" alt="" class="BcUvif" width="35" height="35" data-atf="true" data-iml="8703.70000000298">
                                 </div>
                                 <div class="feature-box-info">
-                                    <h4>Bootstrap 3</h4>
-                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <h4>Solana</h4>
+                                    <p>Solana is a high-performance...</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-3">
                             <div class="feature-box">
-                                <div class="feature-box-icon">
-                                    <i class="fa fa-font"></i>
+                                <div class="feature-box-icon" style="background:none">
+                                    <!-- <i class="fa fa-expand"></i> -->
+                                    <img width="35px" src="https://cdn.iconscout.com/icon/free/png-128/polygon-token-4086724-3379854.png" srcset="https://cdn.iconscout.com/icon/free/png-64/polygon-token-4086724-3379854.png 1x, https://cdn.iconscout.com/icon/free/png-128/polygon-token-4086724-3379854.png 2x" alt="Matic Polygon Token Icon" loading="lazy" class="thumb_2R-ky">
                                 </div>
                                 <div class="feature-box-info">
-                                    <h4>Font Awesome</h4>
-                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <h4>Polygon</h4>
+                                    <p>Polygon is a secondary scaling...</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-3">
                             <div class="feature-box">
-                                <div class="feature-box-icon">
-                                    <i class="fa fa-eye"></i>
+                                <div class="feature-box-icon" style="background: none">
+                                    <!-- <i class="fa fa-font"></i> -->
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAP1BMVEX////wuQvwuADvtQD//vv88dn99eX+/Pf++/PyxFPxvTb889/wuif99+nywk3zyGPywUXzxlzvsQDwuh3779Nm7WYbAAACEUlEQVRoge2Z3ZKDIAyFMUhRUVut7/+si/WHRLozupLsDbksM3yFkxwhKJUjR44cOXL8R1jLzyiHvmRn1FqzU2pdFMwU+/QMTxkYdVkZnvJko5Qbg3Et5bAzPKVm0aWsEYNJ/QODhWKfBwaDLl8Yc45VKRnlN0bitZC8IpR0ORZpzqA+ZcD7DenXUpG9ApgMEMqQQP2KaA56UspoQrmfY5ZqPrr5RzcmzbGDHtotPzudUJfqRfUw28BBl9edHetaNBcUUxgxBR5puxsQ9WggrGPCI1NYCzSPOwxEAW3oyJ5jtxmesuwYjO444sZlpL3N8OLPlD2vCGVeC7R/F70Km+MpKK9UF/64zzHMMBdxtsfTtkjzrkESTDivDPSXqtL7FRSB4hCwAWjQxGEXfVJf8rGPJ2JKGGl/k8HNhXOBYhcvAYjSplpTLaY8lrLR9ckds5uXRGm7G0BU4o8RNoc5RbGvUMq0AHH50wJEhglnKLZHnkisBDEOlAnbpT6RYyIQVQpsl4zw++cQIPKrdCm8ftixX1FKkmJcbSVozmIrn6InE3MYpIzVYxzfR2uPTuDzK3GQkDgSiRzuql7gmBoduFdK0gN3dCXdrg70GnT7emoFLkERBQzDdU7mYipzxZZpFsi0PWQaODKtKJmmmkx7UKbRKdOylWk+y7TRlciDgNDThsgjjcxzU44cOXLkyPElfgD7xxevk1XdhQAAAABJRU5ErkJggg==" data-deferred="1" alt="" class="BcUvif" width="35" height="35" data-atf="true" data-iml="10913.79999999702">
                                 </div>
                                 <div class="feature-box-info">
-                                    <h4>Color Options</h4>
-                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <h4>BSC</h4>
+                                    <p>BNB was initially based...</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-3">
                             <div class="feature-box">
-                                <div class="feature-box-icon">
-                                    <i class="fa fa-picture-o"></i>
+                                <div class="feature-box-icon" style="background: none">
+                                    <!-- <i class="fa fa-eye"></i> -->
+                                    <img src="data:image/png;base64,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" data-deferred="1" alt="" class="BcUvif" width="35" height="35" data-atf="true" data-iml="9945.29999999702">
                                 </div>
                                 <div class="feature-box-info">
-                                    <h4>Clean Headers</h4>
-                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <h4>Avalanche</h4>
+                                    <p>Avalanche is a platform for creating...</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-3">
                             <div class="feature-box">
-                                <div class="feature-box-icon">
-                                    <i class="fa fa-archive"></i>
+                                <div class="feature-box-icon" style="background:none">
+                                    <!-- <i class="fa fa-picture-o"></i> -->
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAk1BMVEUuMUj///8bHjZzd5W3ucgrLkVwdJEoK0IUFzApLEVrb4sYGzMlKD8ACDAAAi8jJkAaHjs9QFhkaINYWWlfY35DRl6+wM9LTmcMECv4+PlFR1k3Ok8PFDVMTl/r6+2Pj5hVWHLDw8ff3+KCg420tLpkZXOhoamWl59vcH12d4amqLcAAB2dn66LjZ4ACCUAACOWma/6BFfRAAAJi0lEQVRogb1a6WKbOBBWUHRYwuYwGBwaGztHk7Tr7vs/3c4IIQQWOE13Vz+cwzCf5j4kcvfJtT+fXp/etg8NIc3D9u3p9fm8/+y75DMPHU5Pj+tNmiQrxggsxlZJkm7W26fT4d8BOb9u02/JigTWKvmWbl/Pfwzy/JimQQAHlKaPz38CcjiulxF6nM1xUWwLIIenTRIgyUTgn8nmaQFmFmT/PQlCkLbNWAgm+T5rbXMgp1Ualg2nlJYhFJLGp98C2b+sg3QIU7RoKW3CX65fwswEQU5BScESLc1FjB/h75MkyEwI5DjDhhEWKESYzxlmjp8DeZnRBpAAHmLzo5jdRrr9BMiBzYiKGI10Oud09hmSsCtjnoKcF7yPZVR1saug1Swr4JvTQDMBOSfzLxsxGY2z0oht9rnkvARyDgdCu+JeWqThdGEzEDjP8yCHdOlV0lBlfxP5kryAl/QwC8IWoyGrnH+IXnCzvLA5kJd5uzKUC9ra7YNS1IJSYCXbMMhx1j8siBqCVsN5OLS4lR5DIKf18lsjwrGaiZLDWp+uQfZLxmsWiEjHkVlJ1DrRzS2W7K9AbiiEiKiiRR3ZpUta6EXVg1pepiDLwmLAQQ1urh0IobmMoniRGycwC7JfLT0eI3GZ08aBRDXlKDq9ZGNstR+BfO8tizE2hbN6iBSNowFEUdZBXsM4Cul3H+TQKYSJrKqqMiPxgMR6AUEWuXggBc16viDDpGnSEYhJk5VZI7r3k4MH8tSBNAozOOVctSXr5C08Lah6AJEVraT76+Xj4z1lMakKxTnQ4KrLasnTAHLYdHJRXBVFkXdQedswFjstSLCngSqaV9v/Wb/s7u93f7XK7jBHCp0cNgcHcuwYEZAuBKyYZLAlxKmElMPWWx+EDJg/Pu5xUarytmxEDBQK66vJ0YFsrIZd7mZQwWW4M56XuqMlW1p6IFFM845LXacG474oibC6hCidWVZ6kGdrWmwUW0FWokX5tnEN5GThWzAsrgx2XebccPIRDcaSgYFbA3u2II8uwnM/IrFIy7opUGyNlOAmwgfROYXvoTzCbXzsdvcP3pvKpZvVYwdydtEXMgYfzN0KQ6DYVKkV9flAziJidlAldb3dSu1ehGyjHCImfAB5HUI8y2nef917HuikRBiufJVENZRHAFEQYxr40XulgK0OdVn6akC2fj7kTi3+rmWmwDZbZ2qRvmRgprxKpCdCi1FSWg0kV1sEOfi5ijWUtgKiDvFCSEeUghFUkXSgoIrLiLeOFUiatPVDDaR7cnf6RnyUjMMz2xdSR2MUCLugAQ4wWmYgKKi7Kzl5hiEfIItROPt2ApCncSJh8BQaSzOmoDPaXpC4Khv4zEndXIEAK6CPaYkBoYV4Btzz8nOHZv9rDFICTeABYhN4aCM1sNZOQaIABhox2V9lq2+dA5OR60kEiWTSgmo4mJTW7BoELA41OlnrPTlvpv9Mu1A0wog0RN06qtCi4APEXgteTEBkO9F5tzZn8nxVCIktBtW/VyMSEB9LNKkCQiawA1gxL0bGoaMc/hvI++kzeb0uIBJID39x3Lm/S44eicrQWjK0AJ6PHoCyjJNQNk5eyVOgSlnVP37BbovB06QsOMLqWgsh4UcDJFU0MFtnYHKRDIIcyVuo/k3gLTBlxToqnVUV4N71+z2Y93sN3FSQA0u7DfiLGjsIgazeyDZUpqC7S4ilvESJyATdkGYyqo113+9+wr81JtDcbMM8YLJNCIRtyUMIxG4PXi1ANCUGFMxZ9fuuM+/dO6AoBWowIoR2RYmO6RDIAwnWzU7Q8DZBB48vkFClvndLawC51BWSR1HVVn0hajOludN3XIBnKCAvEUTseoydQJAaHsiBTZU5OwvTWwaJEASsJpoBiWrUfz6YWZjeorgaFLrRfx0SVy0TkCWGAcdKGGJJ8a2x/dr8CCn+V2UeQANprTEHiIHi5004xjCBO6xB9zzHAOmbMIDk1sZR/7lYMOGgMwKIRLsk1hkhPJow0zsjbFsm4CdtYosyAjLN5p0xFFYA5FKNwwpYEUc77cIKpOMSFE7cA1qjci7BTgLCSiBAQiAGMXeS8AIk6heogsq12fk4QNYm2AVHh6+BUI8zwNyJqgeBUhjV3AA3UmAoIJNQj56bk4CG01MgaUHJosBorpJWe2FIPNao5qYWdAwCigEtNtcokLSu0y9Usr46HCfwP4kRHsRWBnO8jpVf1vUL0u91IWEKp2iytGlPoODCHqeEKk831zleYzKb9vdYSIRKIigGpihQEoF0oF7lLQbFUkOWCpREDA1mjGJKomlx1xUcbCIu2HheeTlelZXXcfeMmAHMBMUUd6EylZBpmVozLFMBQke2Y4AsNqkyjZOg5Y20b8rUacHdFzU+hIT+CPJv3GcNE57x0ZF9dO8hL17U7QruaevQ+5NjReoM0y/nI4o1otCiGSr92CMysGJbB68Jgv0OX1s5xagKVcWTJgjiCMNv8qrnbySOaRM0GDEoJAu1c2BMUk/bOQCVGtsjXjQ1MOm9mA2D9r6dc40pSHPcmDLTmBbNpWtMx9UxxcZUX5rCNK/+EMOfHrrG9M46fQz+2iPYFtt0hIY2ZLDMB+lbbCtPqlrssAeB2V/X02FBQ1UsmDcsUC0ZhgXjpgf8xtXb0JMiy1QVVSMEjoDiwvbx3rDAjj0EFCZFi2MP80qb+WMPf84RmVZi+FODrEoUG9p5W1VVGxh72NCCEcWOR4qKTAc4zWi2MmJMGAHHWZvzjkLv0f4Ax42iSGlHUYN03ShqNZ4SjUZRTpMsK6sWmMk6vY9GUW6oxtj1VM16Zaz4jwGkVr2xTTIuwxmQpTAeqn1mPFjnf79pJ6HLF8aDtwed9eMOChXXE8dU6d8ddN4e2UYfruCKuvQSrBq8dT2yvTl8bnZeuxpH1ZeGz7fG6MxgfFh+Rf6lMfqtA4HkDXviPveILx4I3FJLsv35se2fyLha1sigkAnIjUOauOL9uIFVXz6kuXXclLmBnFg8nls+brp1cDYoQi0cNN44OLtxBOj2f+O06cYR4I3DzNJWCKxY8pKbh5nLx7KQ8JrRz9D6xLHs3dIBs83deBb4ZwfMd0tH5Y1hQfBZ2/r0UfnSoX9B8zj2Z8sTUX3+0H/h+gLWbdXcJYnfu75wN3sRA+u20JwRV7oKsrEAMnulJMvz0AzwS1dK7uYuxzAhArL64uUYA3PcfO6az/rL13zM+u8vLJn1P1y9MmvuEtnjv3aJzK7Jdbjj71yH+we1j7AfdpYXLgAAAABJRU5ErkJggg==" data-deferred="1" alt="" class="BcUvif" width="35" height="35" data-atf="true" data-iml="14371.5">
                                 </div>
                                 <div class="feature-box-info">
-                                    <h4>Portfolio</h4>
-                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <h4>Cosmos</h4>
+                                    <p>Cosmos is an ever-expanding ecos..</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-3">
                             <div class="feature-box">
-                                <div class="feature-box-icon">
-                                    <i class="fa fa-expand"></i>
+                                <div class="feature-box-icon" style="background: none;">
+                                    <!-- <i class="fa fa-archive"></i> -->
+                                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 507.56 509.36"><title>algorand-algo</title><polygon points="88.04 509.36 161.7 381.8 235.37 254.68 308.58 127.12 320.71 106.9 326.1 127.12 348.56 211.11 323.4 254.68 249.74 381.8 176.53 509.36 264.56 509.36 338.23 381.8 376.41 315.77 394.37 381.8 428.51 509.36 507.56 509.36 473.43 381.8 439.29 254.68 430.31 221.89 485.11 127.12 405.15 127.12 402.46 117.68 374.61 13.47 371.02 0 294.21 0 292.41 2.69 220.54 127.12 146.88 254.68 73.66 381.8 0 509.36 88.04 509.36"></polygon></svg>
                                 </div>
                                 <div class="feature-box-info">
-                                    <h4>Lightbox</h4>
-                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <h4>Algorand</h4>
+                                    <p>Algorand is the first blockchain...</p>
                                 </div>
                             </div>
-                        </div>
+                        </div>                        
                         <div class="col-sm-3">
                             <div class="feature-box">
-                                <div class="feature-box-icon">
-                                    <i class="fa fa-picture-o"></i>
+                                <div class="feature-box-icon" style="background:none">
+                                    <!-- <i class="fa fa-picture-o"></i> -->
+                                    <img src="data:image/png;base64,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" data-deferred="1" class="rg_i Q4LuWd" jsname="Q4LuWd" width="35px" height="35px" alt="Immutable X (IMX) Logo .SVG and .PNG Files Download" data-xblocker="passed" style="visibility: visible;" data-atf="false" data-iml="9156.29999999702">
                                 </div>
                                 <div class="feature-box-info">
-                                    <h4>Gallery</h4>
-                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <h4>Immutable X</h4>
+                                    <p>The first layer 2 for NFTs...</p>
                                 </div>
                             </div>
                         </div>
@@ -420,7 +425,7 @@
 
 
     <!-- Full Spotlight left-->
-    <section class="page-section-no-padding">
+    <!-- <section class="page-section-no-padding">
         <div class="container-fluid">
             <div class="row">
                 <div class="container col-md-6">
@@ -438,14 +443,14 @@
                 <div class="col-md-6 spotlight-img-cont" style="background-image: url(http://placehold.it/651x431); "> </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
 
 
 
     <!-- Full Spotlight right-->
-    <section class="page-section-no-padding">
+    <!-- <section class="page-section-no-padding">
         <div class="container-fluid">
             <div class="row">
                 <div class="container col-md-6 col-md-push-6">
@@ -463,14 +468,14 @@
                 <div class="col-md-6 col-md-pull-6 spotlight-img-cont" style="background-image: url(http://placehold.it/647x431); "> </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
 
 
 
     <!-- Our Services -->
-    <section class="page-section ">
+    <!-- <section class="page-section ">
         <div class="container ">
             <div class="row">
                 <div class="col-md-4">
@@ -551,14 +556,14 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
 
 
 
     <!-- Portfolio / Projects -->
-    <section class="page-section-no-padding">
+    <section class="page-section-no-padding" id="portfolio">
         <!-- /3 Column Portfolio -->
         <div class="filter-section">
             <div class="container">
@@ -568,10 +573,10 @@
                         <div class="filter-container isotopeFilters">
                             <ul class="list-inline filter">
                                 <li class="active"><a href="#" data-filter="*">All </a><span>/</span></li>
-                                <li><a href="#" data-filter=".illustrations">Illustrations</a><span>/</span></li>
-                                <li><a href="#" data-filter=".photography">Photography</a><span>/</span></li>
-                                <li><a href="#" data-filter=".websites">Websites</a><span>/</span></li>
-                                <li><a href="#" data-filter=".art">Art</a></li>
+                                <li><a href="#" data-filter=".mint">NFT mingting sites</a><span>/</span></li>
+                                <li><a href="#" data-filter=".dex">DEX</a><span>/</span></li>
+                                <li><a href="#" data-filter=".marketplace">Marketplace</a><span>/</span></li>
+                                <li><a href="#" data-filter=".dao">DAO</a></li>
                             </ul>
                         </div>
                     </div>
@@ -584,10 +589,88 @@
             <div class="row">
                 <div class="isotopeContainer">
 
-                    <div class="col-md-4 isotopeSelector photography">
+                    <div class="col-md-4 isotopeSelector mint">
                         <article class="">
                             <figure>
-                                <img src="http://placehold.it/625x450" alt="">
+                                <img src="img/ape.png" alt="">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="row margin-0 project-content">
+                                            <div class="col-md-12 info-head">
+                                                <h3>Angryapesunited</h3>
+                                                <h4>Mint</h4>
+                                            </div>
+                                            <div class="col-md-12 info">
+                                                <p>Angry Apes United is a unique NFT collection of 8,888 Angry Apes generated from over 170+ hand drawn traits.</p>
+                                                <p><a title="Project Image" class="fancybox-pop fancybox.image" href="img/ape.png"><i class="fa fa-search fa-border fa-2x"></i></a>
+                                                    <a title="Project Link" href="www.angryapesunited.com"><i class="fa fa-link fa-border fa-2x"></i></a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                        </article>
+                    </div>
+
+                    <div class="col-md-4 isotopeSelector mint">
+                        <article class="">
+                            <figure>
+                                <img src="img/bunny.png" alt="">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="row margin-0 project-content">
+                                            <div class="col-md-12 info-head">
+                                                <h3>BoredBunny</h3>
+                                                <h4>NFT mint</h4>
+                                            </div>
+                                            <div class="col-md-12 info">
+                                                <p>Bored Bunny is your ticket into the largest and fastest growing NFT project</p>
+                                                <p><a title="Landing Page" class="fancybox-pop fancybox.image" href="img/bunny.png"><i class="fa fa-search fa-border fa-2x"></i></a>
+                                                    <a title="Project Link" href="https://www.boredbunny.io/#"><i class="fa fa-link fa-border fa-2x"></i></a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                        </article>                       
+                    </div>
+
+                    <div class="col-md-4 isotopeSelector dao">
+                        <article class="">
+                            <figure>
+                                <img src="img/DAO.png" alt="">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="row margin-0 project-content">
+                                            <div class="col-md-12 info-head">
+                                                <h3>Metaverse DAO</h3>
+                                                <h4>DAO</h4>
+                                            </div>
+                                            <div class="col-md-12 info">
+                                                <p>Metaverse is a Decentralized protocol based on the $MDAO token.</p>
+                                                <p><a title="Project Image" class="fancybox-pop fancybox.image" href="img/DAO.png"><i class="fa fa-search fa-border fa-2x"></i></a>
+                                                    <a title="Project Link" href="https://metaversedao.app/"><i class="fa fa-link fa-border fa-2x"></i></a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                        </article>
+                    </div>
+
+                    <div class="col-md-4 isotopeSelector mint">
+                        <article class="">
+                            <figure>
+                                <img src="img/wannapanda.png" alt="">
                                 <div class="overlay-background">
                                     <div class="inner"></div>
                                 </div>
@@ -599,9 +682,9 @@
                                                 <h4>Category</h4>
                                             </div>
                                             <div class="col-md-12 info">
-                                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore...</p>
-                                                <p><a title="Project Image" class="fancybox-pop fancybox.image" href="http://placehold.it/625x450"><i class="fa fa-search fa-border fa-2x"></i></a>
-                                                    <a title="Project Link" href="portfolio-item.html"><i class="fa fa-link fa-border fa-2x"></i></a></p>
+                                                <p>Wanna Panda is a collection of 10,000 NFTs. Like a snowyake, each collectable is a one-of-akind hand-drawn original.</p>
+                                                <p><a title="Landing page" class="fancybox-pop fancybox.image" href="img/wannapanda.png"><i class="fa fa-search fa-border fa-2x"></i></a>
+                                                    <a title="Project Link" href="wannapanda.com"><i class="fa fa-link fa-border fa-2x"></i></a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -610,10 +693,62 @@
                         </article>
                     </div>
 
-                    <div class="col-md-4 isotopeSelector photography illustrations">
+                    <div class="col-md-4 isotopeSelector marketplace">
                         <article class="">
                             <figure>
-                                <img src="http://placehold.it/625x450" alt="">
+                                <img src="img/marketplace1.png" alt="">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="row margin-0 project-content">
+                                            <div class="col-md-12 info-head">
+                                                <h3>NFT MarketPlace</h3>
+                                                <h4>Marketplace</h4>
+                                            </div>
+                                            <div class="col-md-12 info">
+                                                <p>Creat, Buy, Sell NFTs. ThinkPHP + web3.js</p>
+                                                <p><a title="Typical items" class="fancybox-pop fancybox.image" href="img/marketplace1.png"><i class="fa fa-search fa-border fa-2x"></i></a>
+                                                    <a title="Project Link" href="https://demo.hengpaixt.cn/"><i class="fa fa-link fa-border fa-2x"></i></a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                        </article>
+                    </div>
+
+                    <div class="col-md-4 isotopeSelector dex">
+                        <article class="">
+                            <figure>
+                                <img src="img/DEX.png" alt="">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="row margin-0 project-content">
+                                            <div class="col-md-12 info-head">
+                                                <h3>PantherSwap</h3>
+                                                <h4>DEX</h4>
+                                            </div>
+                                            <div class="col-md-12 info">
+                                                <p>The First Automatic Liquidity Acquisition Yield Farm & AMM on Binance Smart Chain</p>
+                                                <p><a title="Project Image" class="fancybox-pop fancybox.image" href="img/DEX.png"><i class="fa fa-search fa-border fa-2x"></i></a>
+                                                    <a title="Project Link" href="https://pantherswap.com/"><i class="fa fa-link fa-border fa-2x"></i></a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                        </article>
+                    </div>
+
+                    <div class="col-md-4 isotopeSelector mint">
+                        <article class="">
+                            <figure>
+                                <img src="img/wannapanda.png" alt="">
                                 <div class="overlay-background">
                                     <div class="inner"></div>
                                 </div>
@@ -625,9 +760,9 @@
                                                 <h4>Category</h4>
                                             </div>
                                             <div class="col-md-12 info">
-                                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore...</p>
-                                                <p><a title="Project Image" class="fancybox-pop fancybox.image" href="http://placehold.it/625x450"><i class="fa fa-search fa-border fa-2x"></i></a>
-                                                    <a title="Project Link" href="portfolio-item.html"><i class="fa fa-link fa-border fa-2x"></i></a></p>
+                                                <p>Wanna Panda is a collection of 10,000 NFTs. Like a snowyake, each collectable is a one-of-akind hand-drawn original.</p>
+                                                <p><a title="Landing page" class="fancybox-pop fancybox.image" href="img/wannapanda.png"><i class="fa fa-search fa-border fa-2x"></i></a>
+                                                    <a title="Project Link" href="wannapanda.com"><i class="fa fa-link fa-border fa-2x"></i></a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -635,11 +770,10 @@
                             </figure>
                         </article>
                     </div>
-
-                    <div class="col-md-4 isotopeSelector art">
+                    <div class="col-md-4 isotopeSelector mint">
                         <article class="">
                             <figure>
-                                <img src="http://placehold.it/625x450" alt="">
+                                <img src="img/wannapanda.png" alt="">
                                 <div class="overlay-background">
                                     <div class="inner"></div>
                                 </div>
@@ -651,9 +785,9 @@
                                                 <h4>Category</h4>
                                             </div>
                                             <div class="col-md-12 info">
-                                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore...</p>
-                                                <p><a title="Project Image" class="fancybox-pop fancybox.image" href="http://placehold.it/625x450"><i class="fa fa-search fa-border fa-2x"></i></a>
-                                                    <a title="Project Link" href="portfolio-item.html"><i class="fa fa-link fa-border fa-2x"></i></a></p>
+                                                <p>Wanna Panda is a collection of 10,000 NFTs. Like a snowyake, each collectable is a one-of-akind hand-drawn original.</p>
+                                                <p><a title="Landing page" class="fancybox-pop fancybox.image" href="img/wannapanda.png"><i class="fa fa-search fa-border fa-2x"></i></a>
+                                                    <a title="Project Link" href="wannapanda.com"><i class="fa fa-link fa-border fa-2x"></i></a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -661,95 +795,14 @@
                             </figure>
                         </article>
                     </div>
-
-                    <div class="col-md-4 isotopeSelector photography">
-                        <article class="">
-                            <figure>
-                                <img src="http://placehold.it/625x450" alt="">
-                                <div class="overlay-background">
-                                    <div class="inner"></div>
-                                </div>
-                                <div class="overlay">
-                                    <div class="inner-overlay">
-                                        <div class="row margin-0 project-content">
-                                            <div class="col-md-12 info-head">
-                                                <h3>Project Title</h3>
-                                                <h4>Category</h4>
-                                            </div>
-                                            <div class="col-md-12 info">
-                                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore...</p>
-                                                <p><a title="Project Image" class="fancybox-pop fancybox.image" href="http://placehold.it/625x450"><i class="fa fa-search fa-border fa-2x"></i></a>
-                                                    <a title="Project Link" href="portfolio-item.html"><i class="fa fa-link fa-border fa-2x"></i></a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </figure>
-                        </article>
-                    </div>
-
-                    <div class="col-md-4 isotopeSelector photography websites">
-                        <article class="">
-                            <figure>
-                                <img src="http://placehold.it/625x450" alt="">
-                                <div class="overlay-background">
-                                    <div class="inner"></div>
-                                </div>
-                                <div class="overlay">
-                                    <div class="inner-overlay">
-                                        <div class="row margin-0 project-content">
-                                            <div class="col-md-12 info-head">
-                                                <h3>Project Title</h3>
-                                                <h4>Category</h4>
-                                            </div>
-                                            <div class="col-md-12 info">
-                                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore...</p>
-                                                <p><a title="Project Image" class="fancybox-pop fancybox.image" href="http://placehold.it/625x450"><i class="fa fa-search fa-border fa-2x"></i></a>
-                                                    <a title="Project Link" href="portfolio-item.html"><i class="fa fa-link fa-border fa-2x"></i></a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </figure>
-                        </article>
-                    </div>
-
-                    <div class="col-md-4 isotopeSelector photography art">
-                        <article class="">
-                            <figure>
-                                <img src="http://placehold.it/625x450" alt="">
-                                <div class="overlay-background">
-                                    <div class="inner"></div>
-                                </div>
-                                <div class="overlay">
-                                    <div class="inner-overlay">
-                                        <div class="row margin-0 project-content">
-                                            <div class="col-md-12 info-head">
-                                                <h3>Project Title</h3>
-                                                <h4>Category</h4>
-                                            </div>
-                                            <div class="col-md-12 info">
-                                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore...</p>
-                                                <p><a title="Project Image" class="fancybox-pop fancybox.image" href="http://placehold.it/625x450"><i class="fa fa-search fa-border fa-2x"></i></a>
-                                                    <a title="Project Link" href="portfolio-item.html"><i class="fa fa-link fa-border fa-2x"></i></a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </figure>
-                        </article>
-                    </div>
-
-
                 </div>
-
             </div>
         </div>
         <!-- END Columns Portfolio -->
 
-        <div class="text-center">
+        <!-- <div class="text-center">
             <button type="button" class="btn btn-primary ">VIEW MORE PROJECTS <i class="fa fa-arrow-right"></i></button>
-        </div>
+        </div> -->
 
     </section>
 
@@ -758,7 +811,7 @@
 
 
     <!-- Our Clients -->
-    <section class="page-section">
+    <!-- <section class="page-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-md-push-8">
@@ -794,7 +847,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
 
@@ -803,7 +856,7 @@
     <!-- ALTERNATIVE SECTION -->
     <!-- insert "sec-alternative" class into section tag -->
 
-    <section class="page-section sec-alternative" style="background-image: url(img/odd_background.png)">
+    <!-- <section class="page-section sec-alternative" style="background-image: url(img/odd_background.png)">
         <div class="container">
 
             <div class="row">
@@ -887,14 +940,14 @@
             </div>
 
         </div>
-    </section>
+    </section> -->
 
 
 
 
 
     <!-- Our Team-->
-    <section class="page-section">
+    <!-- <section class="page-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -909,14 +962,14 @@
                 <button type="button" class="btn btn-primary">MORE ABOUT US <i class="fa fa-arrow-right"></i></button>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
 
 
 
     <!-- Left Spotlight-->
-    <section class="page-section section-grey">
+    <!-- <section class="page-section section-grey">
         <div class="container">
             <div class="row">
                 <div class="col-md-5  spotlight-container">
@@ -931,14 +984,14 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
 
 
 
     <!-- RIGHT SPOTLIGHT-->
-    <section class="page-section">
+    <!-- <section class="page-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-5 col-md-push-7 spotlight-container">
@@ -953,14 +1006,14 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
 
 
 
     <!-- VIDEO -->
-    <div class="page-section-no-padding  video-container" style="background-image: url(http://placehold.it/1920x1080); background-size: cover;">
+    <!-- <div class="page-section-no-padding  video-container" style="background-image: url(http://placehold.it/1920x1080); background-size: cover;">
         <div class="video-content">
             <div class="container-fluid">
                 <div class="row">
@@ -971,7 +1024,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
 
@@ -987,55 +1040,61 @@
                 </div>
             </div>
             <div class="row blog-listing">
-                <div class="col-md-4">
+                <div class="col-md-4" id="nft">
                     <article>
-                        <img class="img-thumbnail" src="http://placehold.it/690x527" alt="" />
-                        <h2>Article 1</h2>
+                        <!-- <img class="img-thumbnail" src="http://placehold.it/690x527" alt="" /> -->
+                        <h2>NFT</h2>
                         <hr class="title-underline">
-                        <p>
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet...
+                        <p>                           
+                            An NFT, which stands for non-fungible token, is a unique unit of data employing technology that allows 
+                            digital content—from videos to songs to images—to become logged and authenticated on cryptocurrency blockchains, 
+                            primarily Ethereum. ... The main impact of NFTs is making it easy to own and sell digital content.
                         </p>
                         <div class="post-meta">
-                            <span><i class="fa fa-calendar"></i> Aug 17, 2016 - 6:53</span>
-                            <span><i class="fa fa-user"></i> By <a href="#">John Doe</a> </span>
-                            <span><i class="fa fa-tag"></i> <a href="#">Duis</a>, <a href="#">News</a> </span>
-                            <span><i class="fa fa-comments"></i> <a href="#">12 Comments</a></span>
+                            <span><i class="fa fa-calendar"></i> Dec 28, 2021</span>
+                            <span><i class="fa fa-user"></i> By Bobby </span>
+                            <span><i class="fa fa-tag"></i>  News </span>
+                            <span><i class="fa fa-comments"></i> 12 Comments</span>
                         </div>
-                        <a href="blog-single-post.html" class="btn btn-xs btn-primary">Read more...</a>
+                        <a href="https://ethereum.org/en/nft/" class="btn btn-xs btn-primary">Read more...</a>
                     </article>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" id="solana">
                     <article>
-                        <img class="img-thumbnail" src="http://placehold.it/690x527" alt="" />
-                        <h2>Article 2</h2>
+                        <!-- <img class="img-thumbnail" src="http://placehold.it/690x527" alt="" /> -->
+                        <h2>Solana Candy Machine</h2>
                         <hr class="title-underline">
                         <p>
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet...
+                            Candy Machine is a tool that utilizes the Metaplex CLI to generate an NFT, link a picture and relevant metadata to 
+                            the NFT token, and setup a "fair auction." A "fair auction" really consists of two separate pieces. The first of 
+                            which is that it starts at the same time for everyone. No pre-sales! The second component is that it will not send 
+                            the transaction...
+            
                         </p>
                         <div class="post-meta">
-                            <span><i class="fa fa-calendar"></i> Aug 17, 2016 - 6:53</span>
-                            <span><i class="fa fa-user"></i> By <a href="#">John Doe</a> </span>
-                            <span><i class="fa fa-tag"></i> <a href="#">Duis</a>, <a href="#">News</a> </span>
-                            <span><i class="fa fa-comments"></i> <a href="#">12 Comments</a></span>
+                            <span><i class="fa fa-calendar"></i> Jan 17, 2022</span>
+                            <span><i class="fa fa-user"></i> By John Doe </span>
+                            <span><i class="fa fa-tag"></i> News </span>
+                            <span><i class="fa fa-comments"></i> 8 Comments</span>
                         </div>
-                        <a href="blog-single-post.html" class="btn btn-xs btn-primary">Read more...</a>
+                        <a href="https://www.quicknode.com/guides/web3-sdks/how-to-mint-an-nft-on-solana-using-candy-machine" class="btn btn-xs btn-primary">Read more...</a>
                     </article>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" id="ethereum">
                     <article>
-                        <img class="img-thumbnail" src="http://placehold.it/690x527" alt="" />
-                        <h2>Article 3</h2>
+                        <!-- <img class="img-thumbnail" src="http://placehold.it/690x527" alt="" /> -->
+                        <h2>Ethereum</h2>
                         <hr class="title-underline">
                         <p>
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet...
+                            Ethereum is a technology that's home to digital money, global payments, and applications. The community has built a booming digital economy, bold new ways for creators to earn online, and so much more. It's open to everyone, wherever you are in the world – all you need is the internet.
                         </p>
                         <div class="post-meta">
-                            <span><i class="fa fa-calendar"></i> Aug 17, 2016 - 6:53</span>
-                            <span><i class="fa fa-user"></i> By <a href="#">John Doe</a> </span>
-                            <span><i class="fa fa-tag"></i> <a href="#">Duis</a>, <a href="#">News</a> </span>
-                            <span><i class="fa fa-comments"></i> <a href="#">12 Comments</a></span>
+                            <span><i class="fa fa-calendar"></i> Aug 17, 2016</span>
+                            <span><i class="fa fa-user"></i> By org </span>
+                            <span><i class="fa fa-tag"></i>News </span>
+                            <span><i class="fa fa-comments"></i> 30 Comments</span>
                         </div>
-                        <a href="blog-single-post.html" class="btn btn-xs btn-primary">Read more...</a>
+                        <a href="https://ethereum.org/en/" class="btn btn-xs btn-primary">Read more...</a>
                     </article>
                 </div>
             </div>
@@ -1051,8 +1110,8 @@
         <div class="testmonial-content ">
             <div class="container">
                 <div class="text-center">
-                    <p class="margin-0"> "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et"
-                        <br/> - John Doe -
+                    <p class="margin-0"> "Second time I'm working with Dastan. Continue to amaze me on how clever and skilled he is. We will definitely work together again in the future. Punctual, knowledgeable and great communication. Not only fixed our issue but ensured we understood. Highly recommended."
+                        <br/> - David Jackson -
                         <br/>CEO
                     </p>
                 </div>
@@ -1065,7 +1124,7 @@
 
 
     <!-- My Skills -->
-    <section class="page-section">
+    <section class="page-section" id="skills">
         <div class="container">
             <div class="row ">
                 <div class="col-md-12 text-center">
@@ -1195,53 +1254,52 @@
             <div class="row ">
                 <div class="col-md-3 padding-0">
                     <div class="hovereffect">
-                        <img class=" img-responsive" src="http://placehold.it/480x550" alt="" />
+                        <img class=" img-responsive" src="img/doyle.png" alt="" />
                         <div class="overlay text-center team-content">
-                            <h3 class="info">JOE DOE</h3>
-                            <p class="info">CEO FOUNDER</p>
+                            <h3 class="info">Cameron Van Hoy</h3>
+                            <p class="info">Writer & Director & Co-founder</p>
                             <p class="info">Lorem ipsum dolor sit amet, consectetur adivpiscing elit. Proin consequat sollicitudin cursus.</p>
-                            <a href="#" class="info" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a href="#" class="info" title="Google-plus" target="_blank"><i class="fa fa-google-plus"></i></a>
-                            <a href="#" class="info" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/cameronvanhoy" class="info" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>                        
+                            <a href="https://twitter.com/CameronVanHoy" class="info" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 padding-0">
                     <div class="hovereffect">
-                        <img class=" img-responsive" src="http://placehold.it/480x550" alt="" />
+                        <img class=" img-responsive" src="img/mia.png" alt="" />
                         <div class="overlay text-center team-content">
-                            <h3 class="info">JANE DOE</h3>
-                            <p class="info">CO FOUNDER</p>
+                            <h3 class="info">Sveta</h3>
+                            <p class="info">Character by</p>
                             <p class="info">Lorem ipsum dolor sit amet, consectetur adivpiscing elit. Proin consequat sollicitudin cursus.</p>
-                            <a href="#" class="info" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a href="#" class="info" title="Google-plus" target="_blank"><i class="fa fa-google-plus"></i></a>
-                            <a href="#" class="info" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                           
+                            <a href="https://www.instagram.com/sveta_has/" class="info" title="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.tiktok.com/@sveta_has?lang=en" class="info" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 padding-0">
                     <div class="hovereffect">
-                        <img class=" img-responsive" src="http://placehold.it/480x550" alt="" />
+                        <img class=" img-responsive" src="img/james.png" alt="" />
                         <div class="overlay text-center team-content">
-                            <h3 class="info">JAMES DOE</h3>
-                            <p class="info">DEVELOPER</p>
+                            <h3 class="info">Iceey</h3>
+                            <p class="info">Developer</p>
                             <p class="info">Lorem ipsum dolor sit amet, consectetur adivpiscing elit. Proin consequat sollicitudin cursus.</p>
-                            <a href="#" class="info" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <!-- <a href="#" class="info" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
                             <a href="#" class="info" title="Google-plus" target="_blank"><i class="fa fa-google-plus"></i></a>
-                            <a href="#" class="info" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="info" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 padding-0">
                     <div class="hovereffect">
-                        <img class=" img-responsive" src="http://placehold.it/480x550" alt="" />
+                        <img class=" img-responsive" src="img/lee.png" alt="" />
                         <div class="overlay text-center team-content">
-                            <h3 class="info">JENNY DOE</h3>
-                            <p class="info">MARKETING</p>
+                            <h3 class="info">Lee Doe</h3>
+                            <p class="info">Marketing</p>
                             <p class="info">Lorem ipsum dolor sit amet, consectetur adivpiscing elit. Proin consequat sollicitudin cursus.</p>
-                            <a href="#" class="info" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <!-- <a href="#" class="info" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
                             <a href="#" class="info" title="Google-plus" target="_blank"><i class="fa fa-google-plus"></i></a>
-                            <a href="#" class="info" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="info" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -1250,13 +1308,13 @@
     </section>
 
     <!-- Contact Us -->
-    <section class="page-section-no-padding">
+    <!-- <section class="page-section-no-padding">
         <div class="container-fluid">
             <div class="row ">
-                <div class="col-md-6 col-md-push-6">
+                <div class="col-md-12">
                     <div class="container">
                         <div class="row ">
-                            <div class="col-md-6 contact-container">
+                            <div class="col-md-12 contact-container">
                                 <h2 class="title-section"><span class="title-regular">CONTACT</span><br/>US</h2>
                                 <hr class="title-underline" />
                                 <p>
@@ -1281,7 +1339,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
 
@@ -1299,20 +1357,25 @@
                     </div>
                     <div>
                         <address class="margin-bottom-30">
-                            <p>Samplestreet 3<br/>
-                            34117 Kassel<br/>
-                            Germany</p>
+                            <p>Toronto<br/>
+                            4174 Ontario<br/>
+                            Canada</p>
                         </address>
                     </div>
-                    <div class="margin-bottom-30">
-                        <p><i class="fa fa-phone"></i> +49 561 00 00 00 00
+                    <!-- <div class="margin-bottom-30" id="contact">
+                        <p><i class="fa fa-phone"></i> +416-480-0318
                             <br/>
                             <i class="fa fa-fax"></i> +49 561 00 00 00 00</p>
-                    </div>
-                    <div>
-                        <a href="https://netlify.com">www.netllify.com</a>
+                    </div> -->
+                    <div id="contact">
+                        <a href="https://bobbysierra.netlify.com">bobbysierra.netlify.com</a>
                         <br/>
                         <a href="mailto:bobbysierra201@gmail.com">bobbysierra201@gmail.com</a>
+                        <br/>
+                        <a href="javascript:;">skype: live:.cid.ea93c0ee72537ed1</a>
+                        <br/>
+                        <a href="javascript:;">TG: @bestmycode610</a>
+                        
                     </div>
                 </div>
                 <div class="col-md-3 footer-menu">
@@ -1325,17 +1388,17 @@
                         any DEFI & DAO & DApp firms and boost the project with my enthusiasm & experience.
                     </p>
                     <!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p> -->
-                    <a href="about-us.html">
+                    <!-- <a href="about-us.html">
                         <button class="btn btn-primary">Read More</button>
-                    </a>
+                    </a> -->
                 </div>
                 <div class="col-md-3 footer-blog">
                     <h4>RECENT BLOG POSTS</h4>
                     <ul>
-                        <li><a href="#">Blog Entry 1<br/></a> <a href="#">February 10 / John Doe </a></li>
-                        <li><a href="#">Blog Entry 2<br/></a> <a href="#">March 14 / Jane Doe </a></li>
-                        <li><a href="#">Blog Entry 3<br/></a> <a href="#">April 06 / Jenny Doe </a></li>
-                        <li><a href="#">Blog Entry 4<br/></a> <a href="#">June 25 / James Doe </a></li>
+                        <li><a href="#nft">NFT<br/></a> Dec 28 / Bobby </li>
+                        <li><a href="#solana">Solana Candy Machine<br/></a> Jan 22 / Jane Doe </li>
+                        <li><a href="#ethereum">Ethereum<br/></a> Aug 17 / org </li>
+                        <!-- <li><a href="#">Blog Entry 4<br/></a> <a href="#">June 25 / James Doe </a></li> -->
                     </ul>
                 </div>
                 <div class="col-md-3  footer-menu">
@@ -1344,19 +1407,19 @@
                         <a href="index.html">
                             <li>Home</li>
                         </a>
-                        <a href="about-me.html">
-                            <li>About Me</li>
+                        <a href="#intro">
+                            <li>Intro</li>
                         </a>
-                        <a href="about-us.html">
-                            <li>About Us</li>
+                        <a href="#experience">
+                            <li>Experience</li>
                         </a>
-                        <a href="our-team.html">
-                            <li>Our Team</li>
+                        <a href="#portfolio">
+                            <li>Portfolio</li>
                         </a>
-                        <a href="blog-right-sidebar.html">
-                            <li>Blog</li>
+                        <a href="#skills">
+                            <li>Skills</li>
                         </a>
-                        <a href="contact.html">
+                        <a href="#contact">
                             <li>Contact</li>
                         </a>
                     </ul>
